@@ -20,7 +20,7 @@ font-weight: bold;
 
 .TEXTO{
     font-size: 40px;
-    color: green;
+    color: white;
 }
 
 .lista ul li{
@@ -56,7 +56,7 @@ body{
 section{
     width: 100%;
     display: flex;
-    max-width: 1700px;
+    max-width: 1675px;
     margin-left: 12%;
     margin-top: 16%;
     
