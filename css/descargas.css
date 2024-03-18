@@ -1,33 +1,38 @@
-.lista ul li{
-    display: inline-block;
-    padding: 0px 20px;
-    border-style: solid;
-    border-color: rgb(88, 43, 131);
-    border-radius: 10px 10px 10px 10px;
-    margin-left: 20px;
-    border-color: transparent;
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+}
+h1
+{
+    color: white;
+    font-size: 45px;
+
 }
 
-.lista ul li:hover{
-    transition: 0.4s;
-    background-color: rgb(88, 43, 131);
+ul li {
+    display: inline-block;
+    padding:0px 20px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
     
 }
 
-
-a{
-    color: black;
-    text-decoration: none;
-    font-size: 20px;
+a:hover{
+    color: aquamarine;
 }
 
 
 
 
-.TEXTO{
-    font-size: 40px;
-    color: green;
-}
+
 
 body {
     background: #0c192c;
@@ -81,14 +86,21 @@ body {
 {
     display: flex;
     justify-content: start;
+    
 
 }
 
+.centered {
+    text-align: center;
+    color: white; /* Color blanco */
+}
+
+/* Estilo para el carrusel */
 .ccontainer { 
     width: 85vmin;
-    position: absolute;
-   transform: translate(-50%,-50%);
-    top: 50%;
+    position:relative;
+    transform: translate(-50%,-50%);
+    top: 85%;
     left: 50%;
     overflow: hidden;
     border: 20px solid #f0f0f0;
@@ -99,34 +111,33 @@ body {
 .wrapper {
     width: 100%;
     display: flex;
-    animation: slide 16s infinite;
+    animation: slides 16s infinite; /* Corregido el nombre de los keyframes */
 }
+
 @keyframes slides {
-    0%{
+    0% {
         transform: translateX(0);
     }
-    25%{
+    25% {
         transform:  translateX(0);
     }
-    
-    30%{
+    30% {
         transform: translateX(-100%);
     }
-
-    50%{
+    50% {
         transform: translateX(-200%);
     }
-    75%{
+    75% {
         transform: translateX(-200%);
     }
     80% {
-        transform:translateX(-300%) ;
+        transform:translateX(-300%);
     }
-
-    100%{
+    100% {
         transform: translateX(-300%);
     }
 }
+
 img {
     width: 100%;
 }
