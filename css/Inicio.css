@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
 }
 
 nav{
@@ -168,8 +171,8 @@ section{
 .contenedor3{
     width: 100%;
     display: flex;
-    max-width: 1100px;
-    margin-left: 20%;
+    max-width: 1400px;
+    margin-left: 13%;
     margin-top: 16%;
 
 }
@@ -182,6 +185,7 @@ section{
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
     cursor: default;
     transition: all 400ms ease;
+    padding: 18px;
   
 }
 
@@ -196,7 +200,7 @@ section{
 }
 
 footer {
-    background-color: #333; 
+    background-color: #0d0c1d; 
     padding: 2rem 0;
     color: white;
     margin-top: 10%;
@@ -215,7 +219,7 @@ footer {
 
 .footer-info h3,
 .footer-redes h3 {
-    color: #2ecc71; 
+    color: #a69cac; 
 }
 
 .footer-info p {
