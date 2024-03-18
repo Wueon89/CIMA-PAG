@@ -21,9 +21,7 @@ a{
     font-size: 20px;
 }
 
-body{
-    background: #0c192c;
-}
+
 
 
 .TEXTO{
@@ -31,9 +29,104 @@ body{
     color: green;
 }
 
-.carta{
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   width: 30rem;
+body {
+    background: #0c192c;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.card{
+    width: 600px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+    margin: 20px;
+}
+.card img{
+  width: 100%;
+  height: auto;
+}
+
+.card-content{
+  color: #666;
+  font-size: 15px;
+  line-height: 1.3;
+}
+
+.card-content .btn { 
+    display: inline-block;
+    padding: 16px 16px ;
+    background-color: #333;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 16px;
+    color: #f0f0f0;
+    margin-left: 35%;
+}
+
+.flexpadre
+{
+    display: flex;
+    justify-content: start;
+
+}
+
+.ccontainer { 
+    width: 85vmin;
+    position: absolute;
+   transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    overflow: hidden;
+    border: 20px solid #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 10px 25px 30px rgba(30,30,200,0.3);
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    animation: slide 16s infinite;
+}
+@keyframes slides {
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform:  translateX(0);
+    }
+    
+    30%{
+        transform: translateX(-100%);
+    }
+
+    50%{
+        transform: translateX(-200%);
+    }
+    75%{
+        transform: translateX(-200%);
+    }
+    80% {
+        transform:translateX(-300%) ;
+    }
+
+    100%{
+        transform: translateX(-300%);
+    }
+}
+img {
+    width: 100%;
 }
