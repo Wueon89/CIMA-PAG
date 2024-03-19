@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 600px;
+    background: #0c192c;  
+    background: -webkit-linear-gradient(to right, hsla(226, 50%, 31%, 0.363), hsla(226, 50%, 31%, 0.363)), url('https://wcselectric.net/home/wp-content/uploads/2023/11/contact.jpeg');
+    background: linear-gradient(to right, hsla(209, 62%, 23%, 0.363), hsla(192, 82%, 37%, 0.678)), url('https://wcselectric.net/home/wp-content/uploads/2023/11/contact.jpeg'); 
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+nav{
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding-top: 20px;
+padding-left: 5%;
+padding-right: 5%;
+font-weight: bold;
+
+}
+
+.TEXTO{
+    font-size: 40px;
+    color: white;
+}
+
+.lista ul li{
+    display: inline-block;
+    padding: 0px 20px;
+    border-style: solid;
+    border-color: rgb(88, 43, 131);
+    border-radius: 10px 10px 10px 10px;
+    margin-left: 20px;
+    border-color: transparent;
+}
+
+.lista ul li:hover{
+    transition: 0.4s;
+    background-color: rgb(88, 43, 131);
+    color: white;
+}
+
+.colores{
+    color: white;
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+body{
+    background: #0c192c;
+}
+
+
+#conta{
+    margin-top: 11%;
+    color: white;
+    font-size: 70px;
+    border-style: solid;
+    border-color: transparent;
+    background-color: transparent;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    cursor: none;
+}
+
+#conta:hover{
+
+    background-color: blueviolet;
+    transition: 0.5s;
+}
+
+#contactanos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
