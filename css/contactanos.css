@@ -7,7 +7,7 @@
 
 header{
     width: 100%;
-    height: 600px;
+    height: 825px;
     background: #0c192c;  
     background: -webkit-linear-gradient(to right, hsla(226, 50%, 31%, 0.363), hsla(226, 50%, 31%, 0.363)), url('https://wcselectric.net/home/wp-content/uploads/2023/11/contact.jpeg');
     background: linear-gradient(to right, hsla(209, 62%, 23%, 0.363), hsla(192, 82%, 37%, 0.678)), url('https://wcselectric.net/home/wp-content/uploads/2023/11/contact.jpeg'); 
@@ -88,4 +88,119 @@ body{
     justify-content: center;
     align-items: center;
 
+}
+
+#formulario1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    margin-top: 6%;
+
+}
+
+form{
+    text-align: center;
+    padding: 5%;
+}
+
+fieldset{
+    width: 80%;
+    height: 1030px;
+    background: #0c192c;  
+    background: -webkit-linear-gradient(to right, hsla(226, 50%, 31%, 0.363), hsla(226, 50%, 31%, 0.363));
+    background: linear-gradient(to right, hsla(209, 62%, 23%, 0.363), hsla(192, 82%, 37%, 0.678)); 
+    padding-bottom: 2%;
+    border-radius: 10px 10px 10px 10px;
+    
+}
+legend{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+input[type="text"],
+input[type="email"]
+  {
+    font-size: 20px;
+    margin: 2%;
+    width: 60%;
+    height: 70px
+}
+
+
+textarea{
+    width: 60%;
+    height: 200px
+    
+}
+
+
+input[type="submit"] {
+    margin-top: 5%;
+    height: 70px; 
+    width: 150px;
+    font-size: 20px;
+  }
+
+  input[type="submit"]:hover{
+    background-color: blueviolet;
+    transition: 0.5s;
+  }
+
+
+
+footer {
+    background-color: #0d0c1d; 
+    padding: 2rem 0;
+    color: white;
+    margin-top: 10%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-info,
+.footer-redes {
+    flex: 1;
+    text-align: center;
+}
+
+.footer-info h3,
+.footer-redes h3 {
+    color: #a69cac; 
+}
+
+.footer-info p {
+    margin: 0.5rem 0;
+    color: white;
+}
+
+.footer-redes img {
+    width: 30px;
+    margin: 0 0.5rem;
+}
+
+.creditos {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.creditos p {
+    margin: 0;
+}
+
+.titulo{
+    margin-top: 9%;
+}
+
+.img{
+    margin-top: 5%;
+}
+
+.contenido{
+    font-size: 25px;
 }
