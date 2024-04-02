@@ -11,7 +11,7 @@ header{
     width: 100%;
     height: 825px;
     background: #0c192c;  
-    background: -webkit-linear-gradient(to right, hsla(226, 50%, 31%, 0.363), hsla(226, 50%, 31%, 0.363)), url('https://wcselectric.net/home/wp-content/uploads/2023/11/contact.jpeg');
+    background: -webkit-linear-gradient(to right, hsla(226, 71%, 13%, 0.363), hsla(226, 50%, 31%, 0.363)), url('https://wcselectric.net/home/wp-content/uploads/2023/11/contact.jpeg');
     background: linear-gradient(to right, hsla(209, 62%, 23%, 0.363), hsla(192, 82%, 37%, 0.678)), url('https://wcselectric.net/home/wp-content/uploads/2023/11/contact.jpeg'); 
     background-size: cover;
     background-attachment: fixed;
@@ -112,7 +112,7 @@ fieldset{
     height: 1030px;
     background: #0c192c;  
     background: -webkit-linear-gradient(to right, hsla(226, 50%, 31%, 0.363), hsla(226, 50%, 31%, 0.363));
-    background: linear-gradient(to right, hsla(209, 62%, 23%, 0.363), hsla(192, 82%, 37%, 0.678)); 
+    background: linear-gradient(to right, hsla(209, 93%, 22%, 0.596), hsla(239, 81%, 13%, 0.678)); 
     padding-bottom: 2%;
     border-radius: 10px 10px 10px 10px;
     
@@ -120,6 +120,7 @@ fieldset{
 legend{
     font-size: 40px;
     font-family: 'Inter', sans-serif;
+    text-align: center;
 }
 
 input[type="text"],
