@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -9,7 +11,7 @@ header{
     width: 100%;
     height: 825px;
     background: #0c192c;  
-    background: -webkit-linear-gradient(to right, hsla(226, 50%, 31%, 0.363), hsla(226, 50%, 31%, 0.363)), url('https://wcselectric.net/home/wp-content/uploads/2023/11/contact.jpeg');
+    background: -webkit-linear-gradient(to right, hsla(226, 71%, 13%, 0.363), hsla(226, 50%, 31%, 0.363)), url('https://wcselectric.net/home/wp-content/uploads/2023/11/contact.jpeg');
     background: linear-gradient(to right, hsla(209, 62%, 23%, 0.363), hsla(192, 82%, 37%, 0.678)), url('https://wcselectric.net/home/wp-content/uploads/2023/11/contact.jpeg'); 
     background-size: cover;
     background-attachment: fixed;
@@ -79,7 +81,7 @@ body{
 
 #conta:hover{
 
-    background-color: blueviolet;
+    background-color: none;
     transition: 0.5s;
 }
 
@@ -110,14 +112,15 @@ fieldset{
     height: 1030px;
     background: #0c192c;  
     background: -webkit-linear-gradient(to right, hsla(226, 50%, 31%, 0.363), hsla(226, 50%, 31%, 0.363));
-    background: linear-gradient(to right, hsla(209, 62%, 23%, 0.363), hsla(192, 82%, 37%, 0.678)); 
+    background: linear-gradient(to right, hsla(209, 93%, 22%, 0.596), hsla(239, 81%, 13%, 0.678)); 
     padding-bottom: 2%;
     border-radius: 10px 10px 10px 10px;
     
 }
 legend{
     font-size: 40px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
 }
 
 input[type="text"],
@@ -142,11 +145,15 @@ input[type="submit"] {
     height: 70px; 
     width: 150px;
     font-size: 20px;
+    border-radius: 10%;
+    font-weight: bold;
   }
 
   input[type="submit"]:hover{
     background-color: blueviolet;
     transition: 0.5s;
+    color: white;
+    cursor: pointer;
   }
 
 
