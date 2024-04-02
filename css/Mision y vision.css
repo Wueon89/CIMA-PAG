@@ -106,6 +106,46 @@ section{
 
 
 }
+.tarjeta3{
+    width: 40%;
+    margin: 0px 20px 20px 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background:   #000a23;
+    color: #fff;
+    box-shadow: 0px 1px 10px rgba(11, 45, 77, 0.925);
+    cursor: default;
+    height: 650px;
+
+}
+
+.integrantes
+{
+    display: flex;
+   
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+    
+}
+
+.img-inte
+{ 
+    height: 70%;
+    width: 100%;
+    display: flex;
+    max-width: 1675px;
+    margin-left: 0%;
+    margin-top: 0%;
+}
+
+.contenido1{
+    font-size: 25px;
+   
+}
+
 
 .tarjeta2 p {
     margin: 20px;
