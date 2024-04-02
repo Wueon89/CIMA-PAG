@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -79,7 +81,7 @@ body{
 
 #conta:hover{
 
-    background-color: blueviolet;
+    background-color: none;
     transition: 0.5s;
 }
 
@@ -117,7 +119,7 @@ fieldset{
 }
 legend{
     font-size: 40px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Inter', sans-serif;
 }
 
 input[type="text"],
@@ -142,11 +144,15 @@ input[type="submit"] {
     height: 70px; 
     width: 150px;
     font-size: 20px;
+    border-radius: 10%;
+    font-weight: bold;
   }
 
   input[type="submit"]:hover{
     background-color: blueviolet;
     transition: 0.5s;
+    color: white;
+    cursor: pointer;
   }
 
 
